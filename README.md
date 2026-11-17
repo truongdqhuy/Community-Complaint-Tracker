@@ -1,5 +1,8 @@
 # Community Complaint Tracker
 
+Name: Truong Duc Quoc Huy
+Student ID: 29211154415
+
 Residents submit short complaints. The deploying administrator advances Submitted → In Review → Resolved. Permissions and sequential transitions are enforced in Solidity. Residents can view all records and filter their own. One administrator is assigned to all complaints at deployment.
 
 ## Prerequisites and Ganache settings
