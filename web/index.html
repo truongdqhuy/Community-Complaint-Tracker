@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Community Complaint Tracker</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><span class="brand">CCT / COMMUNITY SERVICES</span><span class="network">LOCAL GANACHE · TEST ETHER</span></header>
+<main>
+  <section class="intro"><p class="eyebrow">A clearer path to resolution</p><h1>Your community.<br>Your voice, on record.</h1><p>Submit a concern and follow its progress from first review to resolution.</p></section>
+  <section class="wallet panel"><div><h2>Connect to your community</h2><p>Use a Ganache test account in MetaMask. The deploying account is the administrator.</p></div><button id="connect">Connect wallet</button><dl><dt>Account</dt><dd id="account">Not connected</dd><dt>Role</dt><dd id="role">—</dd><dt>Contract</dt><dd id="contract">Deploy the contract to begin</dd><dt>Network</dt><dd id="chain">Ganache · Chain 1337</dd></dl></section>
+  <div class="columns"><section class="panel"><p class="eyebrow">01 / SHARE A CONCERN</p><h2>Submit a complaint</h2><form id="submit"><label for="description">Short description</label><textarea id="description" required rows="5" placeholder="For example: The streetlight on Park Road is broken."></textarea><p class="hint">1–280 UTF-8 bytes. Blockchain data is public: do not include personal information.</p><button id="submit-button" disabled>Submit complaint</button></form></section>
+  <section class="panel"><p class="eyebrow">02 / FOLLOW THE PROCESS</p><h2>Every step, visible</h2><ol class="steps"><li><strong>Submitted</strong><span>Your concern is recorded.</span></li><li><strong>In Review</strong><span>The administrator reviews your complaint.</span></li><li><strong>Resolved</strong><span>The administrator marks the work complete.</span></li></ol></section></div>
+  <section class="panel"><div class="section-head"><div><p class="eyebrow">COMMUNITY RECORD</p><h2>Complaints <span id="count">0</span></h2></div><div><label><input id="mine" type="checkbox"> My complaints</label> <button id="refresh" class="secondary" disabled>Refresh</button></div></div><div id="complaints"><p class="hint">Connect your wallet to load the contract records.</p></div></section>
+  <section class="panel"><h2>Transaction activity</h2><p id="status" role="status" aria-live="polite">Ready to connect.</p><ul id="activity"></ul><h3>Contract events</h3><ul id="events"><li>No events loaded.</li></ul></section>
+</main><footer>Community Complaint Tracker · Local blockchain demonstration</footer>
+<script type="module" src="app.js"></script></body></html>

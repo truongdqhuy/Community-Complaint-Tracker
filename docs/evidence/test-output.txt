@@ -1,0 +1,22 @@
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_win32_x64_137.node'
+Require stack:
+- C:\Users\johnn\Desktop\Blockchains Project\Community-Complaint-Tracker\node_modules\ganache\node_modules\@trufflesuite\uws-js-unofficial\src\uws.js
+- C:\Users\johnn\Desktop\Blockchains Project\Community-Complaint-Tracker\node_modules\ganache\dist\node\core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+PASS: Resident 0x1d276c031cf18310bADAa6fa21ee319B09276366 submitted complaint #1; transaction 0x54ac8c6278ac1cdd02dacc29ee19bfc5958c0a5b34ce712a520c7f3838ffc00d
+PASS: Unauthorized resident update reverted on-chain; transaction 0xf9eab3c7beb7652ec7f721f5cd31b362374cc1afeb197ea34a72c46d1861c91d; state remained Submitted.
+PASS: Administrator 0xE35926511A9e2F741C0A9eeDD12CFbFE185A0a49 advanced Submitted → In Review → Resolved; resident read final state.
+PASS: Empty, blank and oversized descriptions, missing IDs, skipped/repeated/backward transitions rejected. Submission and both status events verified.
+✔ Ganache: two-account submission, permissions, sequential resolution and events (2751.7359ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5765.3023

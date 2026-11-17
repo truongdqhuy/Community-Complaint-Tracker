@@ -1,0 +1,9 @@
+{"version":2,"width":110,"height":30,"timestamp":1794900298,"title":"Complaint Tracker live Ganache demo"}
+[0.126,"o","Contract: 0x82bE84156B45DA8B20cb9ad9Fa3909F96d77b9e7\r\n"]
+[0.126,"o","Administrator: 0xf2139a9b9c8B65E6E07416b87e4e5Da4b6838F53\r\n"]
+[0.127,"o","Resident: 0x125F90371661Fd172e5d2d00AB48DA81F4123D92\r\n"]
+[0.311,"o","SUCCESS: resident submitted complaint #2; Submitted; tx 0x8fff542e2773393ef759ab85992bef4d393e2d8e3730f684c9a57342a753ae4a\r\n"]
+[0.411,"o","REJECTED ON CHAIN: tx 0x6fdc599279666dd98ffa3bca6582681bcad2f02d65b20535a3f6660f9d03dc73; receipt status 0. Only administrator may update. State remains Submitted.\r\n"]
+[0.629,"o","SUCCESS: administrator moved complaint to In Review; tx 0xb8aa8ad846957fef1f302b4a88ec5eec22586dbc2acafbb6be8b95d0e7532d1a\r\n"]
+[0.755,"o","SUCCESS: administrator moved complaint to Resolved; tx 0xb68ea6625aac8163c31dc2f6816c1379f9495201d0a501e153d0ca032102455f\r\n"]
+[0.781,"o","VERIFIED: resident reads Resolved. Test Ether only.\r\n"]

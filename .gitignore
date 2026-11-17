@@ -1,0 +1,5 @@
+node_modules/
+artifacts/
+web/deployment.json
+test-results/
+__pycache__/
